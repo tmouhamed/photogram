@@ -1,4 +1,6 @@
 function posts(state = [], action) {
-    console.log(state, state);
+    console.log("this post will change");
+    console.log(state, action);
+    return state;
 }
 export default posts;

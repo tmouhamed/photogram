@@ -1,4 +1,4 @@
 function comments(state = [], action) {
-    console.log(state, state);
+    return state;
 }
 export default comments;
