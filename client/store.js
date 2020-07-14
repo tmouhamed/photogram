@@ -12,5 +12,7 @@ const state = {
     comments
 }
 
-export default const store = createStore(routeReducer, state);
+const store = createStore(routeReducer, state);
 export const history = syncHistoryWithStore(browserHistory, store);
+
+export default store;
