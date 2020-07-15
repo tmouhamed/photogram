@@ -6,7 +6,6 @@ export function increment(index){
 }
 
 export function addComment(postId, author, comment) {
-    console.log("hi");
     return {
         type: 'ADD_COMMENT',
         postId,
@@ -16,6 +15,7 @@ export function addComment(postId, author, comment) {
 }
 
 export function deleteComment(postId, index) {
+    console.log("removing this comment");
     return {
         type: 'DELETE_COMMENT',
         postId, 
