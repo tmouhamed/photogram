@@ -5,9 +5,8 @@ class Comment extends React.Component {
         return (
             <div className="comment" key={index}>
                 <p>
-                    <strong>{comment.user}</strong>
+        <strong>{`${comment.user}: `}</strong>
                     {comment.text}
-                    
                     <button className="remove-comment" onClick={this.props.deleteComment.bind(null, this.props.params.postId, index)}>&times;</button>
                 </p>
             </div>
