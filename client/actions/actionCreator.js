@@ -1,6 +1,6 @@
 export function increment(index){
     return {
-        type: 'INCREAMENT_LIKES',
+        type: 'INCREMENT_LIKES',
         index
     }
 }
